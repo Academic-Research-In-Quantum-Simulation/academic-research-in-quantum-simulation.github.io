@@ -542,7 +542,7 @@ section#about.success p {
 
 /* texto ao lado */
 .navbar-title-text {
-  font-size: 1.05rem;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 0.05em;
   color: #ffffff;          /* ajusta ao fundo da navbar */
