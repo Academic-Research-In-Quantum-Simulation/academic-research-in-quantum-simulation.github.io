@@ -508,11 +508,6 @@ footer .footer-below {
   opacity: 1;
 }
 
-.sampa-logo {
-  height: 38px;
-  width: auto;
-}
-
 /* Ajuste visual em mobile */
 .navbar-brand {
   display: flex;

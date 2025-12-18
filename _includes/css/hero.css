@@ -16,7 +16,7 @@
   overflow: hidden;             /* garante o recorte da imagem */
   padding: 80px 20px;           /* espaço interno */
   margin: 40px auto;            /* espaço externo */
-  max-width: 90%;               /* não ocupa toda a tela */
+  max-width: 100%;               /* não ocupa toda a tela */
   color: white;
   min-height: 100vh;
   padding: 60px 20px;
@@ -24,7 +24,7 @@
 
 /* imagem opcional dentro da hero */
 .hero-image {
-  max-width: 120px;
+  /* max-width: 120px; */
   margin-bottom: 20px;
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.6);
