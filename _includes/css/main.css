@@ -498,15 +498,7 @@ footer .footer-below {
   vertical-align: middle;
 }
 
-.github-logo {
-  filter: grayscale(1);
-  opacity: 0.85;
-  transition: opacity 0.2s ease;
-}
 
-.github-logo:hover {
-  opacity: 1;
-}
 
 /* Ajuste visual em mobile */
 .navbar-brand {
@@ -529,4 +521,31 @@ section#about.success {
 section#about.success h2,
 section#about.success p {
   color: inherit;
+}
+
+.navbar-brand-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;               /* espaço entre ícone e texto */
+}
+
+/* ícone */
+.github-logo {
+  filter: grayscale(1);
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.github-logo:hover {
+  opacity: 1;
+}
+
+/* texto ao lado */
+.navbar-title-text {
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #ffffff;          /* ajusta ao fundo da navbar */
+  white-space: nowrap;
+  cursor: default;
 }
